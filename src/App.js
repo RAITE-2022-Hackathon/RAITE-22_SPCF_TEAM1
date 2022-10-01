@@ -4,7 +4,7 @@ import "./styles/global.scss";
 import CoinTable from "./pages/CoinTable";
 import { Routes, Route } from "react-router-dom";
 import EachCoin from "./components/EachCoin";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 import Exchange from "./pages/Exchange";
 import CoinCategories from "./pages/CoinCategories";
 
