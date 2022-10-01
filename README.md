@@ -1,7 +1,5 @@
 # RAITE 2022 SPCF TEAM1
- 
-Build
-#npm i
 
-terminal
-#npm start
+## Setup Project
+0. `npm i`
+1. `npm start`
