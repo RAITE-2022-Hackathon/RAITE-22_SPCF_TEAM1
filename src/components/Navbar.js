@@ -17,7 +17,15 @@ const Navbar = ({ handleChange }) => {
         </NavLink>
 
 
-
+        <NavLink to="">
+          <div
+            className={`coin-pages-container ${
+              isActive === "/exchange" ? activeClassName : undefined
+            }`}
+          >
+            <h3>Raite Hackathon 2022</h3>
+          </div>
+        </NavLink>
 
         
         <NavLink to="/">
