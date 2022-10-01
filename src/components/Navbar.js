@@ -20,7 +20,7 @@ const Navbar = ({ handleChange }) => {
 
 
         
-        {/* <NavLink to="/">
+        <NavLink to="/">
           <div
             className={`coin-pages-container ${
               isActive === "/" ? activeClassName : undefined
@@ -28,23 +28,23 @@ const Navbar = ({ handleChange }) => {
           >
             <h3>Market</h3>
           </div>
-        </NavLink> */}
+        </NavLink>
 
 
         
-        {/* <NavLink to="/exchange">
+        <NavLink to="/exchange">
           <div
             className={`coin-pages-container ${
               isActive === "/exchange" ? activeClassName : undefined
             }`}
           >
-            <h3>Exchange</h3>
+            <h3>WatchList</h3>
           </div>
-        </NavLink> */}
+        </NavLink>
 
 
         
-        {/* <NavLink to="/categories">
+        <NavLink to="/categories">
           <div
             className={`coin-pages-container ${
               isActive === "/categories" ? activeClassName : undefined
@@ -52,7 +52,7 @@ const Navbar = ({ handleChange }) => {
           >
             <h3>Categories</h3>
           </div>
-        </NavLink> */}
+        </NavLink>
       </div>
 
       <form className="coin-input-container">

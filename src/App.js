@@ -52,14 +52,14 @@ function App() {
             )
           }
         />
-        {/* <Route
+        <Route
           path="/exchange"
           element={<Exchange handleChange={handleChange} />}
         />
         <Route
           path="/categories"
           element={<CoinCategories handleChange={handleChange} />}
-        /> */}
+        />
         <Route
           path="/:ID"
           element={!loading ? <EachCoin setLoading={setLoading} /> : <p>Loading...</p>}

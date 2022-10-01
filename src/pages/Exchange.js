@@ -5,7 +5,7 @@ const Exchange = ({ handleChange }) => {
   return (
     <>
       <Navbar handleChange={handleChange} />
-      <div>Exchange</div>
+      <div>WatchList</div>
     </>
   );
 };
